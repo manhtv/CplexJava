@@ -1,0 +1,166 @@
+run:
+Cplex Procedure!
+Strategy Search :            T
+Optimization mode:           0
+is MIP:                      true
+Algorithm Available at Root: 0
+Algorithm Types for NodeAlg: 0
+The MIPsearch is Traditional (1)
+routes=[[0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 2, 1, 75, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 57, 55, 54, 53, 56, 58, 60, 59, 101], [0, 32, 33, 31, 35, 37, 38, 39, 36, 34, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 81, 78, 76, 71, 70, 73, 77, 79, 80, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 20, 24, 25, 27, 29, 30, 28, 26, 23, 22, 21, 101], [0, 101], [0, 13, 17, 18, 19, 15, 16, 14, 12, 101], [0, 101], [0, 101], [0, 101], [0, 101], [0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 66, 69, 101], [0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 49, 47, 101], [0, 98, 96, 95, 94, 92, 93, 97, 100, 99, 101], [0, 101], [0, 101], [0, 101]]
+Returns the algorithm that was used to generate the current solution: 12
+----------------------------------------------------
+Route for vehicle 1:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 5 {TW(15.0,67.0), CST: 15.1} -> 3 {TW(65.0,146.0), CST: 106.1} -> 7 {TW(170.0,225.0), CST: 198.1} -> 8 {TW(255.0,324.0), CST: 290.9} -> 10 {TW(357.0,410.0), CST: 384.5} -> 11 {TW(448.0,505.0), CST: 477.5} -> 9 {TW(534.0,605.0), CST: 570.6} -> 6 {TW(621.0,702.0), CST: 684.1} -> 4 {TW(727.0,782.0), CST: 776.3} -> 2 {TW(825.0,870.0), CST: 870.0} -> 1 {TW(912.0,967.0), CST: 962.0} -> 75 {TW(997.0,1068.0), CST: 1068.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 7639.4 min
+Route for vehicle 2:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 3:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 4:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 5:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 6:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 7:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 8:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 57 {TW(35.0,87.0), CST: 35.0} -> 55 {TW(95.0,158.0), CST: 127.0} -> 54 {TW(186.0,257.0), CST: 222.0} -> 53 {TW(286.0,347.0), CST: 317.3} -> 56 {TW(385.0,436.0), CST: 411.3} -> 58 {TW(471.0,534.0), CST: 503.3} -> 60 {TW(562.0,629.0), CST: 596.3} -> 59 {TW(651.0,740.0), CST: 696.6} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 4144.9 min
+Route for vehicle 9:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 32 {TW(31.0,100.0), CST: 31.6} -> 33 {TW(87.0,158.0), CST: 123.6} -> 31 {TW(200.0,237.0), CST: 218.9} -> 35 {TW(283.0,344.0), CST: 313.9} -> 37 {TW(383.0,434.0), CST: 409.7} -> 38 {TW(479.0,522.0), CST: 501.7} -> 39 {TW(567.0,624.0), CST: 596.7} -> 36 {TW(665.0,716.0), CST: 691.7} -> 34 {TW(751.0,816.0), CST: 784.7} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 4908.5 min
+Route for vehicle 10:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 11:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 12:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 13:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 14:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 81 {TW(47.0,124.0), CST: 47.3} -> 78 {TW(109.0,170.0), CST: 140.3} -> 76 {TW(203.0,260.0), CST: 232.3} -> 71 {TW(293.0,360.0), CST: 327.3} -> 70 {TW(387.0,456.0), CST: 446.6} -> 73 {TW(478.0,551.0), CST: 539.6} -> 77 {TW(574.0,643.0), CST: 633.6} -> 79 {TW(668.0,731.0), CST: 724.6} -> 80 {TW(769.0,820.0), CST: 820.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 5148.3 min
+Route for vehicle 15:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 16:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 17:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 18:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 19:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 20:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 21:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 22:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 23:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 24:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 25:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 26:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 90 {TW(20.0,84.0), CST: 20.6} -> 87 {TW(85.0,144.0), CST: 115.6} -> 86 {TW(173.0,238.0), CST: 206.6} -> 83 {TW(265.0,338.0), CST: 302.6} -> 82 {TW(369.0,420.0), CST: 395.6} -> 84 {TW(458.0,523.0), CST: 491.4} -> 85 {TW(555.0,612.0), CST: 584.2} -> 88 {TW(645.0,708.0), CST: 677.2} -> 89 {TW(737.0,802.0), CST: 770.0} -> 91 {TW(836.0,889.0), CST: 863.6} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 5663.4 min
+Route for vehicle 27:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 28:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 29:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 30:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 31:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 32:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 33:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 34:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 35:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 36:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 37:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 38:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 20 {TW(10.0,73.0), CST: 10.0} -> 24 {TW(65.0,144.0), CST: 105.0} -> 25 {TW(169.0,224.0), CST: 197.0} -> 27 {TW(261.0,316.0), CST: 289.0} -> 29 {TW(358.0,405.0), CST: 382.6} -> 30 {TW(449.0,504.0), CST: 499.0} -> 28 {TW(546.0,593.0), CST: 592.0} -> 26 {TW(622.0,701.0), CST: 684.0} -> 23 {TW(732.0,777.0), CST: 777.0} -> 22 {TW(812.0,883.0), CST: 873.0} -> 21 {TW(914.0,965.0), CST: 965.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 6609.6 min
+Route for vehicle 39:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 40:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 13 {TW(30.0,92.0), CST: 30.8} -> 17 {TW(99.0,148.0), CST: 124.8} -> 18 {TW(179.0,254.0), CST: 217.8} -> 19 {TW(278.0,345.0), CST: 312.8} -> 15 {TW(384.0,429.0), CST: 407.8} -> 16 {TW(475.0,528.0), CST: 502.8} -> 14 {TW(567.0,620.0), CST: 594.8} -> 12 {TW(652.0,721.0), CST: 687.8} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 4115.4 min
+Route for vehicle 41:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 42:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 43:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 44:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 45:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 67 {TW(12.0,77.0), CST: 12.1} -> 65 {TW(76.0,129.0), CST: 103.1} -> 63 {TW(171.0,218.0), CST: 195.1} -> 62 {TW(262.0,317.0), CST: 290.1} -> 74 {TW(353.0,412.0), CST: 383.1} -> 72 {TW(450.0,505.0), CST: 478.1} -> 61 {TW(531.0,610.0), CST: 571.1} -> 64 {TW(632.0,693.0), CST: 663.1} -> 68 {TW(734.0,777.0), CST: 756.1} -> 66 {TW(826.0,875.0), CST: 851.5} -> 69 {TW(916.0,969.0), CST: 943.5} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 6483.7 min
+Route for vehicle 46:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 43 {TW(16.0,80.0), CST: 16.5} -> 42 {TW(68.0,149.0), CST: 109.5} -> 41 {TW(166.0,235.0), CST: 201.5} -> 40 {TW(264.0,321.0), CST: 293.5} -> 44 {TW(359.0,412.0), CST: 386.5} -> 46 {TW(448.0,509.0), CST: 479.3} -> 45 {TW(541.0,600.0), CST: 571.3} -> 48 {TW(632.0,693.0), CST: 663.3} -> 51 {TW(725.0,786.0), CST: 756.6} -> 50 {TW(815.0,880.0), CST: 848.8} -> 52 {TW(912.0,969.0), CST: 942.0} -> 49 {TW(1001.0,1066.0), CST: 1035.0} -> 47 {TW(1054.0,1127.0), CST: 1127.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 8667.0 min
+Route for vehicle 47:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 98 {TW(30.0,84.0), CST: 30.8} -> 96 {TW(95.0,156.0), CST: 126.1} -> 95 {TW(196.0,239.0), CST: 218.1} -> 94 {TW(285.0,336.0), CST: 311.7} -> 92 {TW(368.0,441.0), CST: 405.3} -> 93 {TW(475.0,518.0), CST: 497.3} -> 97 {TW(561.0,622.0), CST: 592.3} -> 100 {TW(647.0,726.0), CST: 687.3} -> 99 {TW(743.0,820.0), CST: 782.3} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 4887.2 min
+Route for vehicle 48:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 49:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Route for vehicle 50:
+    0 {TW(0.0,1236.0), CST: 0.0} -> 101 {TW(0.0,1236.0), CST: 1236.0}
+    Time of the route: 1236.0 min
+Total time of all routes: 107707.6 min
+----------------------------------------------------
+Cplex time: 7695.5795949 seconds; best cost: 827.3
+Status: Optimal
+BUILD SUCCESSFUL (total time: 128 minutes 17 seconds)

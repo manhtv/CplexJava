@@ -1,0 +1,145 @@
+cplex procedure
+The optimization method is default
+routes=[[0, 5, 3, 7, 8, 10, 11, 9, 6, 4, 2, 1, 75, 101], [0, 43, 42, 41, 40, 44, 46, 45, 48, 51, 50, 52, 49, 47, 101], [0, 98, 96, 95, 94, 92, 93, 97, 100, 99, 101], [0, 13, 17, 18, 19, 15, 16, 14, 12, 101], [0, 101], [0, 101], [0, 57, 55, 54, 53, 56, 58, 60, 59, 101], [0, 20, 24, 25, 27, 29, 30, 28, 26, 23, 22, 21, 101], [0, 81, 78, 76, 71, 70, 73, 77, 79, 80, 101], [0, 90, 87, 86, 83, 82, 84, 85, 88, 89, 91, 101], [0, 32, 33, 31, 35, 37, 38, 39, 36, 34, 101], [0, 67, 65, 63, 62, 74, 72, 61, 64, 68, 66, 69, 101]]
+servetimes=[[0.0, 15.10000000000582, 106.10000000000582, 198.10000000000582, 290.90000000000873, 384.50000000001455, 477.50000000001455, 570.6000000000204, 662.8000000000175, 755.0000000000146, 848.6000000000204, 940.6000000000204, 1033.6000000000204, 1236.0], [0.0, 16.5, 109.5, 201.5, 293.5, 386.5, 479.3000000000029, 571.3000000000029, 663.3000000000029, 756.3000000000029, 848.5, 941.6000000000058, 1034.6000000000058, 1127.0, 1236.0], [0.0, 30.80000000000291, 126.10000000000582, 238.79999999998836, 332.3999999999942, 426.0, 518.0, 613.0, 708.0, 803.0, 1236.0], [0.0, 30.800000000002903, 124.80000000000288, 217.80000000000283, 312.8000000000028, 407.8000000000027, 502.80000000000257, 594.8000000000025, 720.9999999999999, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 35.0, 127.0, 222.0, 317.3000000000029, 436.0, 534.0, 627.0, 727.3999999999942, 1236.0], [0.0, 10.0, 105.0, 197.0, 289.0, 382.6000000000058, 477.6000000000058, 570.6000000000058, 662.6000000000058, 755.6000000000058, 873.0, 965.0, 1236.0], [0.0, 47.39999999999418, 140.39999999999418, 232.39999999999418, 327.3999999999942, 446.7000999999973, 539.7000999999973, 633.7000999999973, 724.7000999999973, 820.0, 1236.0], [0.0, 20.60000000000582, 140.0, 231.0, 327.0, 420.0, 515.8000000000029, 608.6000000000058, 701.6000000000058, 795.4000999999944, 889.0, 1236.0], [0.0, 31.60000000000582, 123.60000000000582, 218.90000000000873, 313.90000000000873, 409.70000000001164, 501.70000000001164, 596.7000000000116, 691.7000000000116, 784.7000000000116, 1236.0], [0.0, 12.19999999999709, 103.19999999999709, 195.1999999999971, 290.1999999999971, 383.1999999999971, 478.1999999999971, 571.1999999999971, 663.1999999999971, 756.1999999999971, 851.5, 943.5, 1236.0]]
+----------------------------------------------------
+Route for vehicle 1:
+    origin: 0; time window[0.0,1236.0]; customer service time: 0.0;destination: 5; time window[15.0,67.0]; customer service time: 15.1
+    origin: 5; time window[15.0,67.0]; customer service time: 15.1;destination: 3; time window[65.0,146.0]; customer service time: 106.1
+    origin: 3; time window[65.0,146.0]; customer service time: 106.1;destination: 7; time window[170.0,225.0]; customer service time: 198.1
+    origin: 7; time window[170.0,225.0]; customer service time: 198.1;destination: 8; time window[255.0,324.0]; customer service time: 290.9
+    origin: 8; time window[255.0,324.0]; customer service time: 290.9;destination: 10; time window[357.0,410.0]; customer service time: 384.5
+    origin: 10; time window[357.0,410.0]; customer service time: 384.5;destination: 11; time window[448.0,505.0]; customer service time: 477.5
+    origin: 11; time window[448.0,505.0]; customer service time: 477.5;destination: 9; time window[534.0,605.0]; customer service time: 570.6
+    origin: 9; time window[534.0,605.0]; customer service time: 570.6;destination: 6; time window[621.0,702.0]; customer service time: 662.8
+    origin: 6; time window[621.0,702.0]; customer service time: 662.8;destination: 4; time window[727.0,782.0]; customer service time: 755.0
+    origin: 4; time window[727.0,782.0]; customer service time: 755.0;destination: 2; time window[825.0,870.0]; customer service time: 848.6
+    origin: 2; time window[825.0,870.0]; customer service time: 848.6;destination: 1; time window[912.0,967.0]; customer service time: 940.6
+    origin: 1; time window[912.0,967.0]; customer service time: 940.6;destination: 75; time window[997.0,1068.0]; customer service time: 1033.6
+    origin: 75; time window[997.0,1068.0]; customer service time: 1033.6;destination: 101; time window[0.0,1236.0]; customer service time: 1236.0
+    Time of the route: 7519.4
+Route for vehicle 2:
+    origin: 0; time window[0.0,1236.0]; customer service time: 0.0;destination: 43; time window[16.0,80.0]; customer service time: 16.5
+    origin: 43; time window[16.0,80.0]; customer service time: 16.5;destination: 42; time window[68.0,149.0]; customer service time: 109.5
+    origin: 42; time window[68.0,149.0]; customer service time: 109.5;destination: 41; time window[166.0,235.0]; customer service time: 201.5
+    origin: 41; time window[166.0,235.0]; customer service time: 201.5;destination: 40; time window[264.0,321.0]; customer service time: 293.5
+    origin: 40; time window[264.0,321.0]; customer service time: 293.5;destination: 44; time window[359.0,412.0]; customer service time: 386.5
+    origin: 44; time window[359.0,412.0]; customer service time: 386.5;destination: 46; time window[448.0,509.0]; customer service time: 479.3
+    origin: 46; time window[448.0,509.0]; customer service time: 479.3;destination: 45; time window[541.0,600.0]; customer service time: 571.3
+    origin: 45; time window[541.0,600.0]; customer service time: 571.3;destination: 48; time window[632.0,693.0]; customer service time: 663.3
+    origin: 48; time window[632.0,693.0]; customer service time: 663.3;destination: 51; time window[725.0,786.0]; customer service time: 756.3
+    origin: 51; time window[725.0,786.0]; customer service time: 756.3;destination: 50; time window[815.0,880.0]; customer service time: 848.5
+    origin: 50; time window[815.0,880.0]; customer service time: 848.5;destination: 52; time window[912.0,969.0]; customer service time: 941.6
+    origin: 52; time window[912.0,969.0]; customer service time: 941.6;destination: 49; time window[1001.0,1066.0]; customer service time: 1034.6
+    origin: 49; time window[1001.0,1066.0]; customer service time: 1034.6;destination: 47; time window[1054.0,1127.0]; customer service time: 1127.0
+    origin: 47; time window[1054.0,1127.0]; customer service time: 1127.0;destination: 101; time window[0.0,1236.0]; customer service time: 1236.0
+    Time of the route: 8665.4
+Route for vehicle 3:
+    origin: 0; time window[0.0,1236.0]; customer service time: 0.0;destination: 98; time window[30.0,84.0]; customer service time: 30.8
+    origin: 98; time window[30.0,84.0]; customer service time: 30.8;destination: 96; time window[95.0,156.0]; customer service time: 126.1
+    origin: 96; time window[95.0,156.0]; customer service time: 126.1;destination: 95; time window[196.0,239.0]; customer service time: 238.7
+    origin: 95; time window[196.0,239.0]; customer service time: 238.7;destination: 94; time window[285.0,336.0]; customer service time: 332.3
+    origin: 94; time window[285.0,336.0]; customer service time: 332.3;destination: 92; time window[368.0,441.0]; customer service time: 426.0
+    origin: 92; time window[368.0,441.0]; customer service time: 426.0;destination: 93; time window[475.0,518.0]; customer service time: 518.0
+    origin: 93; time window[475.0,518.0]; customer service time: 518.0;destination: 97; time window[561.0,622.0]; customer service time: 613.0
+    origin: 97; time window[561.0,622.0]; customer service time: 613.0;destination: 100; time window[647.0,726.0]; customer service time: 708.0
+    origin: 100; time window[647.0,726.0]; customer service time: 708.0;destination: 99; time window[743.0,820.0]; customer service time: 803.0
+    origin: 99; time window[743.0,820.0]; customer service time: 803.0;destination: 101; time window[0.0,1236.0]; customer service time: 1236.0
+    Time of the route: 5032.0
+Route for vehicle 4:
+    origin: 0; time window[0.0,1236.0]; customer service time: 0.0;destination: 13; time window[30.0,92.0]; customer service time: 30.8
+    origin: 13; time window[30.0,92.0]; customer service time: 30.8;destination: 17; time window[99.0,148.0]; customer service time: 124.8
+    origin: 17; time window[99.0,148.0]; customer service time: 124.8;destination: 18; time window[179.0,254.0]; customer service time: 217.8
+    origin: 18; time window[179.0,254.0]; customer service time: 217.8;destination: 19; time window[278.0,345.0]; customer service time: 312.8
+    origin: 19; time window[278.0,345.0]; customer service time: 312.8;destination: 15; time window[384.0,429.0]; customer service time: 407.8
+    origin: 15; time window[384.0,429.0]; customer service time: 407.8;destination: 16; time window[475.0,528.0]; customer service time: 502.8
+    origin: 16; time window[475.0,528.0]; customer service time: 502.8;destination: 14; time window[567.0,620.0]; customer service time: 594.8
+    origin: 14; time window[567.0,620.0]; customer service time: 594.8;destination: 12; time window[652.0,721.0]; customer service time: 721.0
+    origin: 12; time window[652.0,721.0]; customer service time: 721.0;destination: 101; time window[0.0,1236.0]; customer service time: 1236.0
+    Time of the route: 4148.6
+Route for vehicle 5:
+    origin: 0; time window[0.0,1236.0]; customer service time: 0.0;destination: 101; time window[0.0,1236.0]; customer service time: 1236.0
+    Time of the route: 1236.0
+Route for vehicle 6:
+    origin: 0; time window[0.0,1236.0]; customer service time: 0.0;destination: 101; time window[0.0,1236.0]; customer service time: 1236.0
+    Time of the route: 1236.0
+Route for vehicle 7:
+    origin: 0; time window[0.0,1236.0]; customer service time: 0.0;destination: 57; time window[35.0,87.0]; customer service time: 35.0
+    origin: 57; time window[35.0,87.0]; customer service time: 35.0;destination: 55; time window[95.0,158.0]; customer service time: 127.0
+    origin: 55; time window[95.0,158.0]; customer service time: 127.0;destination: 54; time window[186.0,257.0]; customer service time: 222.0
+    origin: 54; time window[186.0,257.0]; customer service time: 222.0;destination: 53; time window[286.0,347.0]; customer service time: 317.3
+    origin: 53; time window[286.0,347.0]; customer service time: 317.3;destination: 56; time window[385.0,436.0]; customer service time: 436.0
+    origin: 56; time window[385.0,436.0]; customer service time: 436.0;destination: 58; time window[471.0,534.0]; customer service time: 534.0
+    origin: 58; time window[471.0,534.0]; customer service time: 534.0;destination: 60; time window[562.0,629.0]; customer service time: 627.0
+    origin: 60; time window[562.0,629.0]; customer service time: 627.0;destination: 59; time window[651.0,740.0]; customer service time: 727.3
+    origin: 59; time window[651.0,740.0]; customer service time: 727.3;destination: 101; time window[0.0,1236.0]; customer service time: 1236.0
+    Time of the route: 4261.6
+Route for vehicle 8:
+    origin: 0; time window[0.0,1236.0]; customer service time: 0.0;destination: 20; time window[10.0,73.0]; customer service time: 10.0
+    origin: 20; time window[10.0,73.0]; customer service time: 10.0;destination: 24; time window[65.0,144.0]; customer service time: 105.0
+    origin: 24; time window[65.0,144.0]; customer service time: 105.0;destination: 25; time window[169.0,224.0]; customer service time: 197.0
+    origin: 25; time window[169.0,224.0]; customer service time: 197.0;destination: 27; time window[261.0,316.0]; customer service time: 289.0
+    origin: 27; time window[261.0,316.0]; customer service time: 289.0;destination: 29; time window[358.0,405.0]; customer service time: 382.6
+    origin: 29; time window[358.0,405.0]; customer service time: 382.6;destination: 30; time window[449.0,504.0]; customer service time: 477.6
+    origin: 30; time window[449.0,504.0]; customer service time: 477.6;destination: 28; time window[546.0,593.0]; customer service time: 570.6
+    origin: 28; time window[546.0,593.0]; customer service time: 570.6;destination: 26; time window[622.0,701.0]; customer service time: 662.6
+    origin: 26; time window[622.0,701.0]; customer service time: 662.6;destination: 23; time window[732.0,777.0]; customer service time: 755.6
+    origin: 23; time window[732.0,777.0]; customer service time: 755.6;destination: 22; time window[812.0,883.0]; customer service time: 873.0
+    origin: 22; time window[812.0,883.0]; customer service time: 873.0;destination: 21; time window[914.0,965.0]; customer service time: 965.0
+    origin: 21; time window[914.0,965.0]; customer service time: 965.0;destination: 101; time window[0.0,1236.0]; customer service time: 1236.0
+    Time of the route: 6524.0
+Route for vehicle 9:
+    origin: 0; time window[0.0,1236.0]; customer service time: 0.0;destination: 81; time window[47.0,124.0]; customer service time: 47.3
+    origin: 81; time window[47.0,124.0]; customer service time: 47.3;destination: 78; time window[109.0,170.0]; customer service time: 140.3
+    origin: 78; time window[109.0,170.0]; customer service time: 140.3;destination: 76; time window[203.0,260.0]; customer service time: 232.3
+    origin: 76; time window[203.0,260.0]; customer service time: 232.3;destination: 71; time window[293.0,360.0]; customer service time: 327.3
+    origin: 71; time window[293.0,360.0]; customer service time: 327.3;destination: 70; time window[387.0,456.0]; customer service time: 446.7
+    origin: 70; time window[387.0,456.0]; customer service time: 446.7;destination: 73; time window[478.0,551.0]; customer service time: 539.7
+    origin: 73; time window[478.0,551.0]; customer service time: 539.7;destination: 77; time window[574.0,643.0]; customer service time: 633.7
+    origin: 77; time window[574.0,643.0]; customer service time: 633.7;destination: 79; time window[668.0,731.0]; customer service time: 724.7
+    origin: 79; time window[668.0,731.0]; customer service time: 724.7;destination: 80; time window[769.0,820.0]; customer service time: 820.0
+    origin: 80; time window[769.0,820.0]; customer service time: 820.0;destination: 101; time window[0.0,1236.0]; customer service time: 1236.0
+    Time of the route: 5148.4
+Route for vehicle 10:
+    origin: 0; time window[0.0,1236.0]; customer service time: 0.0;destination: 90; time window[20.0,84.0]; customer service time: 20.6
+    origin: 90; time window[20.0,84.0]; customer service time: 20.6;destination: 87; time window[85.0,144.0]; customer service time: 140.0
+    origin: 87; time window[85.0,144.0]; customer service time: 140.0;destination: 86; time window[173.0,238.0]; customer service time: 231.0
+    origin: 86; time window[173.0,238.0]; customer service time: 231.0;destination: 83; time window[265.0,338.0]; customer service time: 327.0
+    origin: 83; time window[265.0,338.0]; customer service time: 327.0;destination: 82; time window[369.0,420.0]; customer service time: 420.0
+    origin: 82; time window[369.0,420.0]; customer service time: 420.0;destination: 84; time window[458.0,523.0]; customer service time: 515.8
+    origin: 84; time window[458.0,523.0]; customer service time: 515.8;destination: 85; time window[555.0,612.0]; customer service time: 608.6
+    origin: 85; time window[555.0,612.0]; customer service time: 608.6;destination: 88; time window[645.0,708.0]; customer service time: 701.6
+    origin: 88; time window[645.0,708.0]; customer service time: 701.6;destination: 89; time window[737.0,802.0]; customer service time: 795.4
+    origin: 89; time window[737.0,802.0]; customer service time: 795.4;destination: 91; time window[836.0,889.0]; customer service time: 889.0
+    origin: 91; time window[836.0,889.0]; customer service time: 889.0;destination: 101; time window[0.0,1236.0]; customer service time: 1236.0
+    Time of the route: 5885.0
+Route for vehicle 11:
+    origin: 0; time window[0.0,1236.0]; customer service time: 0.0;destination: 32; time window[31.0,100.0]; customer service time: 31.6
+    origin: 32; time window[31.0,100.0]; customer service time: 31.6;destination: 33; time window[87.0,158.0]; customer service time: 123.6
+    origin: 33; time window[87.0,158.0]; customer service time: 123.6;destination: 31; time window[200.0,237.0]; customer service time: 218.9
+    origin: 31; time window[200.0,237.0]; customer service time: 218.9;destination: 35; time window[283.0,344.0]; customer service time: 313.9
+    origin: 35; time window[283.0,344.0]; customer service time: 313.9;destination: 37; time window[383.0,434.0]; customer service time: 409.7
+    origin: 37; time window[383.0,434.0]; customer service time: 409.7;destination: 38; time window[479.0,522.0]; customer service time: 501.7
+    origin: 38; time window[479.0,522.0]; customer service time: 501.7;destination: 39; time window[567.0,624.0]; customer service time: 596.7
+    origin: 39; time window[567.0,624.0]; customer service time: 596.7;destination: 36; time window[665.0,716.0]; customer service time: 691.7
+    origin: 36; time window[665.0,716.0]; customer service time: 691.7;destination: 34; time window[751.0,816.0]; customer service time: 784.7
+    origin: 34; time window[751.0,816.0]; customer service time: 784.7;destination: 101; time window[0.0,1236.0]; customer service time: 1236.0
+    Time of the route: 4908.5
+Route for vehicle 12:
+    origin: 0; time window[0.0,1236.0]; customer service time: 0.0;destination: 67; time window[12.0,77.0]; customer service time: 12.1
+    origin: 67; time window[12.0,77.0]; customer service time: 12.1;destination: 65; time window[76.0,129.0]; customer service time: 103.1
+    origin: 65; time window[76.0,129.0]; customer service time: 103.1;destination: 63; time window[171.0,218.0]; customer service time: 195.1
+    origin: 63; time window[171.0,218.0]; customer service time: 195.1;destination: 62; time window[262.0,317.0]; customer service time: 290.1
+    origin: 62; time window[262.0,317.0]; customer service time: 290.1;destination: 74; time window[353.0,412.0]; customer service time: 383.1
+    origin: 74; time window[353.0,412.0]; customer service time: 383.1;destination: 72; time window[450.0,505.0]; customer service time: 478.1
+    origin: 72; time window[450.0,505.0]; customer service time: 478.1;destination: 61; time window[531.0,610.0]; customer service time: 571.1
+    origin: 61; time window[531.0,610.0]; customer service time: 571.1;destination: 64; time window[632.0,693.0]; customer service time: 663.1
+    origin: 64; time window[632.0,693.0]; customer service time: 663.1;destination: 68; time window[734.0,777.0]; customer service time: 756.1
+    origin: 68; time window[734.0,777.0]; customer service time: 756.1;destination: 66; time window[826.0,875.0]; customer service time: 851.5
+    origin: 66; time window[826.0,875.0]; customer service time: 851.5;destination: 69; time window[916.0,969.0]; customer service time: 943.5
+    origin: 69; time window[916.0,969.0]; customer service time: 943.5;destination: 101; time window[0.0,1236.0]; customer service time: 1236.0
+    Time of the route: 6483.7
+Total time of all routes: 61048.9
+----------------------------------------------------
+cplex time: 81.965425 seconds; best cost: 827.3
+Status: Optimal

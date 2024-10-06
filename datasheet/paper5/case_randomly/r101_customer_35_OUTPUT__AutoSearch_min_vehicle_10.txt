@@ -1,0 +1,93 @@
+run:
+Cplex Procedure!
+Strategy Search :            A
+Optimization mode:           0
+is MIP:                      true
+Algorithm Available at Root: 0
+Algorithm Types for NodeAlg: 0
+The MIPsearch is AutoSearch (0)
+-----------------------------------------------------------------------------
+Route for vehicle 1:
+    0 {TW(0.0,230.0), CST: 0.00} -> 28 {TW(39.0,49.0), CST: 39.00} -> 12 {TW(63.0,73.0), CST: 63.00} -> 3 {TW(116.0,126.0), CST: 126.00} -> 24 {TW(153.0,163.0), CST: 157.00} -> 25 {TW(172.0,182.0), CST: 182.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 797.00 min
+Route for vehicle 2:
+    0 {TW(0.0,230.0), CST: 0.00} -> 27 {TW(37.0,47.0), CST: 37.00} -> 7 {TW(81.0,91.0), CST: 81.00} -> 8 {TW(95.0,105.0), CST: 103.20} -> 17 {TW(157.0,167.0), CST: 167.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 618.20 min
+Route for vehicle 3:
+    0 {TW(0.0,230.0), CST: 0.00} -> 11 {TW(67.0,77.0), CST: 69.00} -> 19 {TW(76.0,86.0), CST: 86.00} -> 10 {TW(124.0,134.0), CST: 124.00} -> 1 {TW(161.0,171.0), CST: 171.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 680.00 min
+Route for vehicle 4:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 5:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 6:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 7:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 8:
+    0 {TW(0.0,230.0), CST: 0.00} -> 23 {TW(68.0,78.0), CST: 68.00} -> 22 {TW(97.0,107.0), CST: 97.00} -> 4 {TW(149.0,159.0), CST: 149.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 544.00 min
+Route for vehicle 9:
+    0 {TW(0.0,230.0), CST: 0.00} -> 14 {TW(32.0,42.0), CST: 32.00} -> 15 {TW(61.0,71.0), CST: 61.00} -> 13 {TW(159.0,169.0), CST: 169.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 492.00 min
+Route for vehicle 10:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 11:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 12:
+    0 {TW(0.0,230.0), CST: 0.00} -> 2 {TW(50.0,60.0), CST: 50.00} -> 21 {TW(62.0,72.0), CST: 72.00} -> 26 {TW(132.0,142.0), CST: 142.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 494.00 min
+Route for vehicle 13:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 14:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 15:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 16:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 17:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 18:
+    0 {TW(0.0,230.0), CST: 0.00} -> 31 {TW(50.0,60.0), CST: 50.00} -> 30 {TW(71.0,81.0), CST: 72.00} -> 20 {TW(126.0,136.0), CST: 130.30} -> 32 {TW(141.0,151.0), CST: 151.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 633.30 min
+Route for vehicle 19:
+    0 {TW(0.0,230.0), CST: 0.00} -> 33 {TW(37.0,47.0), CST: 37.00} -> 29 {TW(63.0,73.0), CST: 63.00} -> 9 {TW(97.0,107.0), CST: 97.00} -> 34 {TW(117.0,127.0), CST: 118.10} -> 35 {TW(143.0,153.0), CST: 153.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 698.10 min
+Route for vehicle 20:
+    0 {TW(0.0,230.0), CST: 0.00} -> 5 {TW(34.0,44.0), CST: 34.00} -> 16 {TW(75.0,85.0), CST: 75.00} -> 6 {TW(99.0,109.0), CST: 103.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 442.00 min
+Route for vehicle 21:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 22:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 23:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Route for vehicle 24:
+    0 {TW(0.0,230.0), CST: 0.00} -> 18 {TW(87.0,97.0), CST: 87.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 317.00 min
+Route for vehicle 25:
+    0 {TW(0.0,230.0), CST: 0.00} -> 36 {TW(0.0,230.0), CST: 230.00}
+    Time of the route: 230.00 min
+Total time of all routes: 9165.60 min
+-----------------------------------------------------------------------------
+Cplex time: 3.68 seconds; best cost: 764.70
+Status: Optimal
+routes=[[0, 28, 12, 3, 24, 25, 36], [0, 27, 7, 8, 17, 36], [0, 11, 19, 10, 1, 36], [0, 36], [0, 36], [0, 36], [0, 36], [0, 23, 22, 4, 36], [0, 14, 15, 13, 36], [0, 36], [0, 36], [0, 2, 21, 26, 36], [0, 36], [0, 36], [0, 36], [0, 36], [0, 36], [0, 31, 30, 20, 32, 36], [0, 33, 29, 9, 34, 35, 36], [0, 5, 16, 6, 36], [0, 36], [0, 36], [0, 36], [0, 18, 36], [0, 36]]
+Returns the algorithm that was used to generate the current solution: 12
+servetimes=[[0.0, 39.0, 63.0, 126.0, 157.00000000000003, 182.0, 230.0], [0.0, 37.0, 81.00000000007884, 103.20000000018612, 167.00000000016257, 230.0], [0.0, 69.0, 86.0, 124.0, 171.0, 230.0], [0.0, 230.0], [0.0, 230.0], [0.0, 230.0], [0.0, 230.0], [0.0, 68.0, 97.0, 149.0, 230.0], [0.0, 32.0, 61.0, 169.0, 230.0], [0.0, 230.0], [0.0, 230.0], [0.0, 50.0, 72.000000001, 142.000000001, 230.0], [0.0, 230.0], [0.0, 230.0], [0.0, 230.0], [0.0, 230.0], [0.0, 230.0], [0.0, 50.0, 72.0, 130.3000000000031, 151.00000000024414, 230.0], [0.0, 37.0, 63.0, 97.0, 118.10000000000582, 153.0, 230.0], [0.0, 34.00000000007152, 75.00000000015777, 103.00000000039547, 230.0], [0.0, 230.0], [0.0, 230.0], [0.0, 230.0], [0.0, 87.0, 230.0], [0.0, 230.0]]
+chien luoc search la gi: 0
+BUILD SUCCESSFUL (total time: 3 seconds)

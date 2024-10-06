@@ -1,0 +1,4 @@
+http://people.idsia.ch/~luca/macs-vrptw/problems/welcome.htm
+https://www.sintef.no/projectweb/top/vrptw/solomon-benchmark/documentation/
+http://web.cba.neu.edu/~msolomon/problems.htm // doc hieu Cxxx.txt la gi
+https://www.semanticscholar.org/author/M.-Solomon/1780128 // cac bai cua solomon

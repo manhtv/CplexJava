@@ -1,0 +1,93 @@
+run:
+Cplex Procedure!
+Strategy Search :            T
+Optimization mode:           0
+is MIP:                      true
+Algorithm Available at Root: 0
+Algorithm Types for NodeAlg: 0
+The MIPsearch is Traditional (1)
+-----------------------------------------------------------------------------
+Route for vehicle 1:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 5 {TW(15.0,67.0), CST: 15.10} -> 3 {TW(65.0,146.0), CST: 106.10} -> 4 {TW(727.0,782.0), CST: 727.00} -> 2 {TW(825.0,870.0), CST: 870.00} -> 1 {TW(912.0,967.0), CST: 967.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 3921.20 min
+Route for vehicle 2:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 3:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 4:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 5:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 6:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 7:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 8:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 9:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 10:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 11:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 12:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 13:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 14:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 15:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 16:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 17:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 18:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 19:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 20:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 21:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 22:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 23:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 24:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Route for vehicle 25:
+    0 {TW(0.0,1236.0), CST: 0.00} -> 6 {TW(0.0,1236.0), CST: 1236.00}
+    Time of the route: 1236.00 min
+Total time of all routes: 33585.20 min
+-----------------------------------------------------------------------------
+Cplex time: 0.14 seconds; best cost: 42.30
+Status: Optimal
+routes=[[0, 5, 3, 4, 2, 1, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6], [0, 6]]
+Returns the algorithm that was used to generate the current solution: 12
+servetimes=[[0.0, 15.10000000000582, 106.10000000000582, 727.0, 870.0000000000005, 967.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0], [0.0, 1236.0]]
+chien luoc search la gi: 1
+BUILD SUCCESSFUL (total time: 0 seconds)
